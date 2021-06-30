@@ -21,7 +21,11 @@
 
 #include <vector>
 
+#include <algorithm>
+
 #include "../pl.hpp"
+
+#include <fstream>
 
 using namespace std;
 using namespace htmlcxx;

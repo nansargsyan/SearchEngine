@@ -7,4 +7,5 @@ string get_domain(string url) {
         string result = string(what[1].first, what[1].second) + "://" + string(what[2].first, what[2].second) + "/";
         return result;
     }
+    return (NULL);
 }
